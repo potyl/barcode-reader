@@ -16,7 +16,8 @@ exit main();
 
 sub main {
 
-	my $source_res  = GD::Image->newFromPng('image-barcode.png', 1);
+	my ($filename) = @ARGV ? @ARGV : 'image-barcode.png';
+	my $source_res  = GD::Image->newFromPng($filename, 1);
 	my ($source_width, $source_height) = $source_res->getBounds();
 	my %positions = calibrate($source_res, $source_width, $source_height);
 
