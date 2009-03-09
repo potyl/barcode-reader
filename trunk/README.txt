@@ -19,3 +19,6 @@ http://www.wikihow.com/Read-12-Digit-UPC-Barcodes
 
 http://www.nabble.com/GdkBitmap-from-black---white-.png-file-td21767740.html
 http://www.imagemagick.org/script/perl-magick.php
+
+An Open Source barcode reader:
+http://zebra.sourceforge.net/
